@@ -1,0 +1,52 @@
+[tool.poetry]
+name = "python-code-quality"
+version = "0.1.0"
+description = ""
+authors = ["Roman Zydyk <romanzdk@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "python_code_quality" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+autopep8 = "^2.0.4"
+bandit = "^1.7.7"
+black = "^24.3.0"
+coverage = "^7.4.1"
+cython = "^3.0.8"
+docstr-coverage = "^2.3.0"
+fastapi = "^0.109.2"
+flake8 = "^7.0.0"
+flake8-cognitive-complexity = "^0.1.0"
+gprof2dot = "^2022.7.29"
+isort = "^5.13.2"
+line-profiler = "^4.1.2"
+matplotlib = "^3.8.3"
+maturin = "^1.4.0"
+memory-profiler = "^0.61.0"
+mypy = "^1.9.0"
+nox-poetry = "^1.0.3"
+numba = "^0.59.0"
+pylint = "^3.0.3"
+pyre-check = "^0.9.19"
+pyright = "^1.1.355"
+pytest = "^8.0.0"
+radon = "^6.0.1"
+ruff = "^0.2.1"
+safety = "^3.0.1"
+snakeviz = "^2.2.0"
+sphinx = "^7.2.6"
+uvicorn = "^0.27.1"
+yapf = "^0.40.2"
+
+[build-system]
+requires = ["poetry-core", "maturin>=1.4,<2.0"]
+build-backend = "maturin"
+
+[tool.maturin]
+features = ["pyo3/extension-module"]
+
+[tool.poe.tasks]
+lint = { shell = "ruff check" }
+type_check = { shell = "mypy ." }
+format = { shell = "isort --check-only .; black --check ." }
+cq = { shell = "poe lint; poe type_check; poe format" }
