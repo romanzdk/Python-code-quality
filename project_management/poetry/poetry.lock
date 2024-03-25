@@ -1,0 +1,19 @@
+[[package]]
+name = "flask"
+version = "2.0.2"
+description = "A simple framework for building complex web applications."
+
+[package.dependencies]
+click = ">=7.1.2"
+itsdangerous = ">=2.0"
+Jinja2 = ">=3.0"
+Werkzeug = ">=2.0"
+
+[[package]]
+name = "click"
+version = "8.0.3"
+...
+
+[metadata]
+content-hash = "1234567890abcdef1234567890abcdef12345678"
+python-versions = "^3.8"

@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "my_project"
+version = "0.1.0"
+description = "A sample Poetry project"
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Flask = "^2.0"
+requests = "^2.25"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2"
+black = "^21.7"
+flake8 = "^3.9"
+mypy = "^0.910"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
