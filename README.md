@@ -1,6 +1,6 @@
 # Python code quality
 
-Resources for online course `Python code quality` created in 2024 for [Skillmea.sk](https://skillmea.sk) portal.
+Resources for online course `Python code quality` created in 2024 for [Skillmea.sk](https://skillmea.sk) portal available at [link](https://skillmea.cz/online-kurzy/python-code-quality)
 
 # Content
 
@@ -135,84 +135,182 @@ Resources for online course `Python code quality` created in 2024 for [Skillmea.
 25 directories, 100 files
 ```
 
-# Tools covered
+# Odkazy
 
 ## Project management
 
-- Pipenv
-- Poetry
-- Hatch
-- Pdm
-- Uv
-- Rye
+- https://github.com/pypa/pip
+- https://github.com/pypa/virtualenv
+- https://github.com/pypa/pipenv
+- https://github.com/pdm-project/pdm
+- https://github.com/pypa/hatch
+- https://github.com/astral-sh/rye
+- https://github.com/astral-sh/uv
+- https://github.com/python-poetry/poetry
+
+- https://packaging.python.org/en/latest/
+- https://github.com/pypa
 
 ## Linting
 
-- Pylint
-- Ruff
-- Flake8
+- https://github.com/pylint-dev/pylint
+- https://github.com/astral-sh/ruff
+
+## Formátování
+
+- https://peps.python.org/pep-0008/
+- https://github.com/google/styleguide/blob/gh-pages/pyguide.md
+- https://github.com/psf/black
+- https://github.com/google/yapf
+- https://github.com/hhatto/autopep8
+- https://github.com/PyCQA/isort
+- https://peps.python.org/pep-0020/
 
 ## Typing
 
-- Pyright
-- Mypy
-- Pyre
-- Dataclass
-- Pydantic
+- https://peps.python.org/pep-0484/
+- https://peps.python.org/pep-0526/
 
-## Formátování
+- https://docs.python.org/3/library/typing.html
+- https://docs.python.org/3/library/dataclasses.html
 
-- Black
-- Autopep8
-- Yapf
-- Isort
-
-## Bezpečnost
-
-- Bandit
-- Safety
-
-## Testování
-
-- Unittest
-- Pytest
-- Doctest
-- Coverage
+- https://github.com/pydantic/pydantic
+- https://github.com/python/mypy
+- https://github.com/microsoft/pyright
+- https://github.com/facebook/pyre-check
 
 ## Dokumentace
 
-- Sphinx
-- Pdoc
+- https://peps.python.org/pep-0257/
+- https://devguide.python.org/documentation/style-guide/#economy-of-expression
+
+- https://docs.python.org/3/library/doctest.html
+
+- https://github.com/sphinx-doc/sphinx
+- https://github.com/mitmproxy/pdoc
+
+- https://peps.python.org/pep-0008/#comments
+
+- https://packaging.python.org/en/latest/guides/making-a-pypi-friendly-readme/
+- https://github.com/abhisheknaiidu/awesome-github-profile-readme
+- https://github.com/matiassingers/awesome-readme
+- https://github.com/hackergrrl/art-of-readme
+- https://www.makeareadme.com/
+- https://shields.io/
+- https://choosealicense.com/
+
+- https://miro.com/
+- https://app.diagrams.net/
+- https://www.lucidchart.com/
+- https://www.powerdesigner.biz/
+- https://sparxsystems.com/
+
+- https://spec.openapis.org/oas/latest.html
+- https://learning.postman.com/docs/integrations/available-integrations/working-with-openAPI/
+
+## Testy
+
+- https://docs.python.org/3/library/unittest.html
+- https://docs.python.org/3/library/doctest.html
+- https://github.com/pytest-dev/pytest
+
+- https://coverage.readthedocs.io/en/7.4.4/
+- https://github.com/pytest-dev/pytest-cov
+
+## Složitost kódu
+
+- https://github.com/rubik/radon
+- https://www.python.org/download/releases/2.3/mro/
+- https://github.com/Melevir/flake8-cognitive-complexity
+
+## Zabezpečení
+
+- https://github.com/PyCQA/bandit
+- https://github.com/pyupio/safety
+- https://github.com/pypa/pip-audit
+
+## HW náročnost
+
+- https://docs.python.org/3/library/profile.html
+- https://github.com/pyutils/line_profiler
+- https://github.com/joerick/pyinstrument
+- https://github.com/pberkes/big_O
+
+- https://github.com/plasma-umass/scalene
+- https://github.com/benfred/py-spy
+
+- https://docs.python.org/3/library/tracemalloc.html
+- https://docs.python.org/3/library/gc.html
+- https://github.com/giampaolo/psutil
+- https://github.com/htop-dev/htop
+- https://github.com/pythonprofilers/memory_profiler
+- https://github.com/zhuyifei1999/guppy3/
+
+- https://wiki.python.org/moin/TimeComplexity
+
+- https://docs.python.org/3/whatsnew/3.11.html#whatsnew311-faster-cpython
+- https://docs.python.org/3/whatsnew/3.12.html#asyncio
+
+- https://github.com/modin-project/modin
+- https://github.com/dask/dask
+
+- https://github.com/numba/numba
+- https://github.com/Nuitka/Nuitka
+
+- https://github.com/exaloop/codon
+- https://github.com/micropython/micropython
+- https://github.com/RustPython/RustPython
+
+- https://github.com/pola-rs/polars
+- https://github.com/duckdb/duckdb
+- https://github.com/apache/spark
+
+- https://github.com/PyO3/pyo3
+- https://github.com/cython/cython
 
 ## Automatizace
 
-- Make
-- Just
-- Task
-- Poe the poet
-- Tox
-- Nox
-- Pre-commit
-- SonarQube
+- https://github.com/tox-dev/tox
+- https://github.com/wntrblm/nox
+- https://github.com/cjolowicz/nox-poetry
+- https://github.com/nat-n/poethepoet
+- https://www.gnu.org/software/make/
+- https://github.com/go-task/task
+- https://github.com/casey/just
+- https://github.com/SonarSource/sonarqube
+- https://github.com/pre-commit/pre-commit
 
-## HW náročnost
+- https://docs.github.com/en/actions
+- https://docs.gitlab.com/ee/ci/
+- https://azure.microsoft.com/en-us/products/devops/pipelines
+- https://circleci.com/
+- https://www.jenkins.io/
 
-- Cprofile
-- Snakeviz
-- Pyinstrument
-- Guppy3
-- Numba
-- Nuitka
-- Codon
-- PyO3
-- Cython
-- Line-profiler
-- Memory-profiler
-- Tracemalloc
-- Gc
-- Timeit
+## FastAPI Demo
 
-## Složitost
+- https://github.com/tiangolo/fastapi
 
-- Radon
-- Cognitive-complexity
+## Business hledisko
+
+- https://martinfowler.com/articles/is-quality-worth-cost.html
+
+## Souhrn
+
+- http://cleancoder.com
+- https://www.martinfowler.com/
+- https://www.sonarsource.com/
+
+- https://stackoverflow.blog/2021/10/18/code-quality-a-concern-for-businesses-bottom-lines-and-empathetic-programmers/
+- https://martinfowler.com/articles/is-quality-worth-cost.html
+- https://docs.gitlab.com/ee/ci/testing/code_quality.html
+- https://codescene.com/blog/3-code-health-kpis/
+- https://codescene.io/docs/guides/technical/code-health.html
+- https://codescene.com/blog/code-biomarkers/
+
+- https://python.cz/
+- https://pyvec.org/
+- https://europython.eu/
+- https://pycoders.com/
+
+- https://linkedin.com/in/romanzdk
+- https://romanzdk.com
